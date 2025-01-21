@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+
+.container {
+    height: calc(100dvh - 56px - 80px);
+    width: min(100% - 40px, 1080px);
+    margin-inline: auto;
+    gap: 40px 20px;
+    
+}
+
+.flex {
+    display:flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.grid {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 10px;
+    
+}
+
+body {
+    background-color: #f2f3f6;
+
+}
+
+
+/* - - - - - - - - - - - - - - - - - -  - - - - */
+/* - - - - Header and Footer            - - - - */
+/* - - - - - - - - - - - - - - - - - -  - - - - */
+header {
+    height: 50px;
+    background-color: rgb(87, 86, 89);
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color:#fff;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}
+
+ul {
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline;
+    line-height: 50px;
+
+    a {
+        font-size: 17px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+    
+        &:hover {
+            text-decoration: underline;
+        }  
+    } 
+}
+
+li + li {
+    margin-left: 15px;
+}
+
+footer {
+    height: 80px;
+    background-color:#605d78;
+
+    p {
+        text-align: center;
+        line-height: 70px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+    }
+   .contact-section {
+        position: relative;
+        top: 30px;
+        left: 20px;
+   }
+    ul {
+        list-style: none;
+    }
+    li {
+        display: inline;
+    }
+    
+    .icon {
+        font-size: 30px;
+        color: #605d78;
+        cursor: pointer;
+        transition: color .4s ease-in-out;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #e2e2e2;
+        line-height: 1.4;
+          
+    } 
+    .icon.fa-facebook:hover {
+        color: #1877F2
+     }  
+    .icon.fa-linkedin:hover {
+        color: #0077B5
+     }
+    .icon.fa-github:hover {
+        color:#000000
+    }
+}
+/* - - - - - - - - - - - - - - - - - - */
+/*          Hero Banner                */
+/* - - - - - - - - - - - - - - - - - - */
+
+
+.hero-banner {
+    height: 600px;
+    background: #fff url(../img/typewriter.jpg) center center / cover no-repeat;
+    overflow: hidden;
+}
+
+.hero-content {
+    height: calc(100dvh - 70px - 70px);
+
+
+    & > div {
+        text-align: center;
+        color: #fff;
+
+        h2 {
+            line-height: 1;
+            font-size: 80px;
+            font-weight: 900;
+            letter-spacing: 0.2px;
+        }
+
+        p {
+            font-size: 34px;
+            font-weight: 500;
+        }
+    }
+}
+
+.hero-footer {
+    height:70px;
+    background-color: transparent;
+}
+
+
+/* - - - - - - - - - - - - - - - - - -  - - - - */
+/* - - - - - - - - Dashboard- -  - - - - - - -- */
+/* - - - - - - - - - - - - - - - - - -  - - - - */
+
+.article {
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 5%);
+}
+
+.aside {
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 5%);
+}
+
+
