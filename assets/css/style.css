@@ -2,7 +2,6 @@
 
 
 .container {
-    height: calc(100dvh - 56px - 80px);
     width: min(100% - 40px, 1080px);
     margin-inline: auto;
     gap: 40px 20px;
@@ -44,7 +43,7 @@ body {
 /* - - - - - - - - - - - - - - - - - -  - - - - */
 header {
     height: 50px;
-    background-color: rgb(87, 86, 89);
+    background-color: #6c6c6d;
 }
 
 h1 {
@@ -85,11 +84,11 @@ li + li {
 
 footer {
     height: 80px;
-    background-color:#605d78;
+    background-color:#6c6c6d;
 
     p {
         text-align: center;
-        line-height: 70px;
+        line-height: 50px;
         font-size: 18px;
         font-weight: 400;
         color: #fff;
@@ -135,17 +134,20 @@ footer {
 
 
 .hero-banner {
-    height: 600px;
-    background: #fff url(../img/typewriter.jpg) center center / cover no-repeat;
+    height: 400px;
+    background: #fff url(../img/typewriter2.jpg) center center / cover no-repeat;
     overflow: hidden;
 }
 
 .hero-content {
-    height: calc(100dvh - 70px - 70px);
+    height: 400px;
+    justify-content: center;
+    align-items:center;
 
 
     & > div {
         text-align: center;
+        
         color: #fff;
 
         h2 {
@@ -162,14 +164,9 @@ footer {
     }
 }
 
-.hero-footer {
-    height:70px;
-    background-color: transparent;
-}
-
 
 /* - - - - - - - - - - - - - - - - - -  - - - - */
-/* - - - - - - - - Dashboard- -  - - - - - - -- */
+/* - - - - - - - - Main Content- - - - - - - -- */
 /* - - - - - - - - - - - - - - - - - -  - - - - */
 
 .article {
