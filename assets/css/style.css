@@ -8,6 +8,11 @@
     
 }
 
+.grid-center {
+    display:grid;
+    place-items: center;
+}
+
 .flex {
     display:flex;
 }
@@ -184,3 +189,86 @@ footer {
 }
 
 
+/* - - - - - - - - - - - - - - - - - -  - - - - */
+/* - - - - - - - - Dashboard- -  - - - - - - -- */
+/* - - - - - - - - - - - - - - - - - -  - - - - */
+
+.dashboard {
+    height: calc(100dvh - 56px - 100px);
+}
+
+section {
+    width: 100%;
+}
+
+.row {
+    gap: 20px;
+}
+
+.row + .row {
+    margin-top: 20px;
+}
+.column {
+    width: 100%;
+    height: 100px;
+    border-radius: 5%;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgb (0 0 0 / 5%);
+    
+
+    .icon {
+        padding-left: 5px;
+        width: 100px;
+        height: 100%;
+        border-right: 1px solid rgb (0 0 0 / 5%);
+    }
+
+    .data {
+        width: calc(100% - 100px);
+        height: 100px;
+        font-size: 18px;
+    }
+}
+
+.icon > div {
+    width: 100px;
+    height: 90px;
+   
+    border-radius: 50%;
+    
+}
+
+.noun {
+    background-color:#c4b0dd;
+}
+
+.pronoun {
+    background-color:#b0c1dd;
+}
+
+.adjective {
+    background-color:#b0ddd3;
+}
+.verb {
+    background-color:#b0ddd3;
+}
+
+.adverb {
+    background-color:#c4b0dd;
+}
+
+.preposition {
+    background-color:#b0c1dd;
+}
+
+.conjunction {
+    background-color:#b0c1dd;
+}
+
+.interjection {
+    background-color:#b0ddd3;
+}
+
+.article {
+    background-color:#c4b0dd;
+}
